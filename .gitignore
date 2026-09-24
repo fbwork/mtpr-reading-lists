@@ -1,0 +1,14 @@
+.venv
+.idea
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+logs/
+output/
+*.log
+.ipynb_checkpoints/
+completion_flags/
+components/resources/
+components/output/
+db_data/

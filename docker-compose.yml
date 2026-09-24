@@ -1,0 +1,18 @@
+version: "3.4"
+
+services:
+  db:
+    image: postgres:13-alpine
+    restart: on-failure
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+    ports:
+      - "54320:5432"
+    env_file:
+      - .env
+
+#  redis:
+#    image: redis:alpine
+#    restart: on-failure
+#    ports:
+#      - "6379:6379"
