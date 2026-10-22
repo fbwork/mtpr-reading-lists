@@ -1,0 +1,22 @@
+{
+  "description": "Fixed, versioned document-topic inference artifact. This freezes theta_d for reproducibility of all downstream PageRank/query computations. Produced by a canonical deterministic protocol: model.random_state reset to `theta_extraction_seed` immediately before extraction, documents processed in ascending doc_id (= ascending paper id) order, single documented pass -- verified empirically to make regeneration bitwise-reproducible under this exact protocol (same seed, same order, same model). This is NOT a claim that Gensim variational inference is inherently deterministic in general (ad hoc repeated calls without resetting random_state are NOT reproducible -- that non-determinism is what motivated freezing this artifact in the first place); it is a claim about this specific, documented extraction protocol only.",
+  "lda_no_topics": 200,
+  "cluster": 99,
+  "num_docs": 97440,
+  "num_topics": 200,
+  "alpha": 0.01,
+  "training_random_state": 0,
+  "theta_extraction_seed": 0,
+  "doc_processing_order": "ascending doc_id (= ascending paper.id - 1)",
+  "corpus_order_hash": "400e9debb33f390073a48cca71812fc8b1768a3325e1d0fb78775cdc057f9a45",
+  "gensim_version": "4.3.3",
+  "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+  "model_class": "LdaMulticore",
+  "model_file_sha256": {},
+  "dictionary_sha256": null,
+  "docs_sha256": null,
+  "artifact_sha256": "6f1be2d6c0fd0727b9e4cc1b7f7157f8384b63cc3aa465663e0d97c46db566c6",
+  "git_commit_hash": "c3891e463f2d2c52d939afb07e3f95798b5afc23",
+  "generated_at_utc": "2026-09-04T11:23:20.628008+00:00",
+  "regeneration_reproducible": null
+}

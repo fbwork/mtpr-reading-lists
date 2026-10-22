@@ -1,0 +1,10 @@
+{
+  "artifact": "theta_T200_cluster0 (AAN, 15,666 documents x 200 topics, float64)",
+  "artifact_sha256": "b69c206d523dc356ca3f874af6548ec715acd8ac8da0b445a7faac503c18598a",
+  "corpus_order_hash": "17fb453365c88340bc39baa6eebe8a38c5d9b2599e79898ccc3d5549f5c253b8",
+  "lda_model_file": "topic-cluster0-200.bin",
+  "lda_model_sha256": "a1eeef78e1d515f55269ae63c739ae020b13e1993c78d6904347348fad59a508",
+  "dictionary_file": "topic-cluster0-200.dict",
+  "dictionary_sha256": "5ce6b48e87e2258ed1de756c8e1c124fe1544fae7db02e53f5d9b0d00a668279",
+  "note": "Full hashes; the supplementary material's Table 1 lists 16-character prefixes of these values."
+}
