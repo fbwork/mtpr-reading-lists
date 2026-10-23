@@ -63,14 +63,14 @@ d_modified_bias,lexical semantics,0.000000,0.559524,0.500000,0.528925
 d_modified_bias,parser evaluation,0.000000,0.750000,0.633333,0.689202
 d_modified_bias,statistical machine translation models,0.000000,1.000000,0.716667,0.846562
 d_modified_bias,statistical parsing,0.000000,0.750000,0.650000,0.698212
-d_modified_transition,concept-to-text generation,0.000000,0.505208,0.475000,0.489871
-d_modified_transition,distributional semantics,0.000000,0.452381,0.450000,0.451189
-d_modified_transition,domain adaptation,0.000000,0.393939,0.333333,0.362372
-d_modified_transition,information extraction,0.000000,0.398148,0.383333,0.390671
-d_modified_transition,lexical semantics,0.000000,0.380952,0.375000,0.377964
-d_modified_transition,parser evaluation,0.000000,0.395833,0.350000,0.372212
-d_modified_transition,statistical machine translation models,0.000000,0.500000,0.328333,0.405175
-d_modified_transition,statistical parsing,0.000000,0.401515,0.350000,0.374874
+d_modified_transition,concept-to-text generation,0.000000,0.406250,0.316667,0.358672
+d_modified_transition,distributional semantics,0.000000,0.392857,0.366667,0.379536
+d_modified_transition,domain adaptation,0.000000,0.537879,0.400000,0.463844
+d_modified_transition,information extraction,0.000000,0.361111,0.195000,0.265361
+d_modified_transition,lexical semantics,0.000000,0.369048,0.208333,0.277281
+d_modified_transition,parser evaluation,0.100000,0.875000,0.700000,0.782624
+d_modified_transition,statistical machine translation models,0.000000,0.600000,0.650000,0.624500
+d_modified_transition,statistical parsing,0.000000,0.590909,0.483333,0.534421
 cl_modified,concept-to-text generation,0.000000,0.338542,0.350000,0.344223
 cl_modified,distributional semantics,0.100000,0.666667,0.600000,0.632456
 cl_modified,domain adaptation,0.200000,0.909091,0.750000,0.825723
@@ -87,14 +87,14 @@ cl_modified_bias,lexical semantics,0.000000,0.404762,0.350000,0.376386
 cl_modified_bias,parser evaluation,0.000000,0.708333,0.566667,0.633553
 cl_modified_bias,statistical machine translation models,0.000000,1.000000,0.666667,0.816497
 cl_modified_bias,statistical parsing,0.000000,0.795455,0.700000,0.746203
-cl_modified_transition,concept-to-text generation,0.000000,0.505208,0.475000,0.489871
-cl_modified_transition,distributional semantics,0.000000,0.452381,0.450000,0.451189
-cl_modified_transition,domain adaptation,0.000000,0.393939,0.333333,0.362372
-cl_modified_transition,information extraction,0.000000,0.398148,0.383333,0.390671
-cl_modified_transition,lexical semantics,0.000000,0.369048,0.341667,0.355093
-cl_modified_transition,parser evaluation,0.000000,0.395833,0.315000,0.353111
-cl_modified_transition,statistical machine translation models,0.000000,0.900000,0.440000,0.629285
-cl_modified_transition,statistical parsing,0.000000,0.397727,0.333333,0.364110
+cl_modified_transition,concept-to-text generation,0.000000,0.395833,0.300000,0.344601
+cl_modified_transition,distributional semantics,0.000000,0.380952,0.341667,0.360775
+cl_modified_transition,domain adaptation,0.000000,0.553030,0.416667,0.480031
+cl_modified_transition,information extraction,0.000000,0.361111,0.208333,0.274284
+cl_modified_transition,lexical semantics,0.000000,0.369048,0.241667,0.298641
+cl_modified_transition,parser evaluation,0.000000,0.750000,0.600000,0.670820
+cl_modified_transition,statistical machine translation models,0.000000,0.600000,0.583333,0.591608
+cl_modified_transition,statistical parsing,0.000000,0.590909,0.483333,0.534421
 bw_modified,concept-to-text generation,0.000000,0.520833,0.500000,0.510310
 bw_modified,distributional semantics,0.100000,0.666667,0.583333,0.623610
 bw_modified,domain adaptation,0.100000,0.863636,0.750000,0.804815
@@ -111,14 +111,14 @@ bw_modified_bias,lexical semantics,0.000000,0.630952,0.441667,0.527893
 bw_modified_bias,parser evaluation,0.000000,0.750000,0.633333,0.689202
 bw_modified_bias,statistical machine translation models,0.000000,1.000000,0.683333,0.826640
 bw_modified_bias,statistical parsing,0.000000,0.818182,0.783333,0.800568
-bw_modified_transition,concept-to-text generation,0.000000,0.354167,0.350000,0.352077
-bw_modified_transition,distributional semantics,0.000000,0.488095,0.475000,0.481503
-bw_modified_transition,domain adaptation,0.000000,0.575758,0.425000,0.494669
-bw_modified_transition,information extraction,0.000000,0.398148,0.383333,0.390671
-bw_modified_transition,lexical semantics,0.000000,0.535714,0.533333,0.534522
-bw_modified_transition,parser evaluation,0.000000,0.395833,0.400000,0.397911
-bw_modified_transition,statistical machine translation models,0.000000,0.900000,0.511667,0.678602
-bw_modified_transition,statistical parsing,0.000000,0.530303,0.500000,0.514929
+bw_modified_transition,concept-to-text generation,0.000000,0.395833,0.316667,0.354044
+bw_modified_transition,distributional semantics,0.000000,0.500000,0.416667,0.456435
+bw_modified_transition,domain adaptation,0.000000,0.537879,0.400000,0.463844
+bw_modified_transition,information extraction,0.000000,0.361111,0.203333,0.270972
+bw_modified_transition,lexical semantics,0.000000,0.369048,0.200000,0.271679
+bw_modified_transition,parser evaluation,0.000000,0.750000,0.600000,0.670820
+bw_modified_transition,statistical machine translation models,0.000000,0.600000,0.600000,0.600000
+bw_modified_transition,statistical parsing,0.000000,0.590909,0.483333,0.534421
 kz_modified,concept-to-text generation,0.000000,0.406250,0.333333,0.367990
 kz_modified,distributional semantics,0.000000,0.547619,0.416667,0.477676
 kz_modified,domain adaptation,0.100000,0.712121,0.516667,0.606572
@@ -135,14 +135,14 @@ kz_modified_bias,lexical semantics,0.000000,0.404762,0.308333,0.353273
 kz_modified_bias,parser evaluation,0.000000,0.875000,0.591667,0.719520
 kz_modified_bias,statistical machine translation models,0.000000,1.000000,0.733333,0.856349
 kz_modified_bias,statistical parsing,0.000000,0.840909,0.733333,0.785281
-kz_modified_transition,concept-to-text generation,0.000000,0.505208,0.475000,0.489871
-kz_modified_transition,distributional semantics,0.000000,0.452381,0.450000,0.451189
-kz_modified_transition,domain adaptation,0.000000,0.393939,0.333333,0.362372
-kz_modified_transition,information extraction,0.000000,0.398148,0.383333,0.390671
-kz_modified_transition,lexical semantics,0.000000,0.380952,0.383333,0.382141
-kz_modified_transition,parser evaluation,0.000000,0.395833,0.350000,0.372212
-kz_modified_transition,statistical machine translation models,0.000000,0.500000,0.336667,0.410284
-kz_modified_transition,statistical parsing,0.000000,0.401515,0.350000,0.374874
+kz_modified_transition,concept-to-text generation,0.000000,0.406250,0.316667,0.358672
+kz_modified_transition,distributional semantics,0.000000,0.500000,0.416667,0.456435
+kz_modified_transition,domain adaptation,0.000000,0.537879,0.400000,0.463844
+kz_modified_transition,information extraction,0.000000,0.361111,0.216667,0.279715
+kz_modified_transition,lexical semantics,0.000000,0.369048,0.208333,0.277281
+kz_modified_transition,parser evaluation,0.100000,0.875000,0.700000,0.782624
+kz_modified_transition,statistical machine translation models,0.000000,0.600000,0.650000,0.624500
+kz_modified_transition,statistical parsing,0.000000,0.590909,0.483333,0.534421
 hybrid,concept-to-text generation,0.000000,0.510417,0.458333,0.483674
 hybrid,distributional semantics,0.000000,0.750000,0.658333,0.702673
 hybrid,domain adaptation,0.100000,0.909091,0.600000,0.738549

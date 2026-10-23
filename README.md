@@ -75,6 +75,15 @@ results/aan, results/acl_rlg        Per-query scores and result files referenced
 Several scripts contain absolute Windows paths for the datasets (see the `*_PATH` constants at the top of each file);
 adapt them to your local copies of AAN and ACL-rlg.
 
+## Correction note (2026-10-24)
+
+`PaperRankClassic.bias()` in `components/pagerank.py` had no branch for the four centrality transition variants
+(`d_/cl_/bw_/kz_modified_transition`), so they had been run with a uniform bias instead of `P(t|d)` as defined in
+Table 1 of the paper (only `modified_transition` was handled). The branch was added; the four variants were recomputed
+(`aan_corrected_transition.py`) and all AAN tables, figures and statistics in the paper use the corrected results. The
+other 15 variants and all ACL-rlg results are unaffected. `aan_extra_variants.py` / `aan_tau_centralities.py` contain the
+in-degree, tau and Hybrid-weight sensitivity analyses; `make_fig_bias_vs_transition.py` regenerates Fig. 2.
+
 ## Reproducibility protocol
 
 All downstream computations (bias, transition, centrality-subgraph

@@ -1,0 +1,23 @@
+{
+  "cl_modified_bias tau=0.02": {
+    "fcsc": 0.6827275733525733,
+    "rcsc": 0.5520833333333333,
+    "ocsc": 0.6125334164951783,
+    "nonconverged": 0,
+    "median_iterations": 42
+  },
+  "kz_modified_bias tau=0.02": {
+    "fcsc": 0.698542343073593,
+    "rcsc": 0.5260416666666667,
+    "ocsc": 0.6055944056455989,
+    "nonconverged": 0,
+    "median_iterations": 47
+  },
+  "bw_modified_bias tau=0.02": {
+    "fcsc": 0.7182126322751323,
+    "rcsc": 0.5854166666666666,
+    "ocsc": 0.6473649990964063,
+    "nonconverged": 0,
+    "median_iterations": 42
+  }
+}

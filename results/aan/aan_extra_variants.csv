@@ -1,0 +1,18 @@
+variant,fcsc,rcsc,ocsc,nonconverged,median_iterations
+"d_modified_bias (tau=0.01, out)",0.647303,0.552083,0.597229,0,43
+"hybrid equal (.25,.25,.25,.25)",0.706795,0.562500,0.629064,0,45
+"hybrid degree-heavy (.7,.1,.1,.1)",0.618843,0.532292,0.573270,0,44
+"hybrid closeness-heavy (.1,.7,.1,.1)",0.703104,0.575000,0.634424,0,42
+"hybrid betweenness-heavy (.1,.1,.7,.1)",0.700534,0.568750,0.629427,0,44
+"hybrid katz-heavy (.1,.1,.1,.7)",0.693283,0.542708,0.612529,0,46
+"hybrid no betweenness (1/3,1/3,0,1/3)",0.711582,0.575000,0.638698,0,45
+"id_modified_bias (tau=0.01, in)",0.702631,0.578125,0.636147,0,43
+"d_modified_transition (out)",0.516632,0.408750,0.457718,1,39
+"id_modified_transition (in)",0.500110,0.411458,0.451456,1,41
+"d_modified_bias tau=0.005",0.647303,0.552083,0.597229,0,43
+"d(in)_modified_bias tau=0.005",0.702631,0.580208,0.637236,0,43
+"d_modified_bias tau=0.02",0.639862,0.545833,0.590406,0,43
+"d(in)_modified_bias tau=0.02",0.702631,0.578125,0.636147,0,43
+"d_modified_bias tau=0.05",0.634943,0.550000,0.590691,0,43
+"d(in)_modified_bias tau=0.05",0.680351,0.556250,0.613947,0,42
+"BM25",0.591935,0.531250,0.556787,,

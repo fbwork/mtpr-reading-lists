@@ -198,8 +198,13 @@ class PaperRankClassic(PageRankBase):
             author_score = model.doc_authors_score(t, d) / (model.topic_authors_score(t) or 1)
             return topic_score * author_score
 
-        elif mode == PRModes.MODIFIED_TRANSITION:
-            # MTPR transition ablation: topic bias, author weighting only in transition.
+        elif mode in [PRModes.MODIFIED_TRANSITION, PRModes.D_MODIFIED_TRANSITION,
+                      PRModes.CL_MODIFIED_TRANSITION, PRModes.BW_MODIFIED_TRANSITION,
+                      PRModes.KZ_MODIFIED_TRANSITION]:
+            # Transition ablations (Table 1 of the paper): bias = P(t|d); the extra signal (author
+            # credibility or centrality) is applied only in the transition. FIX (2026-10-24): the four
+            # centrality *_TRANSITION modes were missing here, so they fell through to the uniform
+            # `else` branch below and had been run with a uniform bias; only MODIFIED_TRANSITION used P(t|d).
             return model.topic_doc_score(d, t)
 
         elif mode in [PRModes.D_MODIFIED, PRModes.D_MODIFIED_BIAS]:
